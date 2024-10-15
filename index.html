@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looking for Jobs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img id="logo-img" src="job-logo.webp" alt="logo job search">
+        </div>
+
+        <div class="input-research">
+            <div class="input-container">
+                <label for="jobRole" class="labels">For which job position?</label>
+                <input type="text" placeholder="Job position or keyword" id="jobRole" size="70" value=""/>
+            </div>
+            <div class="input-container">
+                <label for="jobLocation" class="labels">Where would you like to work?</label>
+                <input type="text" placeholder="City, Region or State" id="jobLocation" size="70" value=""/>
+            </div>
+
+            <div class="input-container">
+                <button type="button" id="buttonSearch">Search jobs</button>
+            </div>
+        </div>
+
+        <div class="table-box">
+            <table id="outable">
+            </table>
+        </div>    
+
+    </div>   
+    <footer id="footer">
+        <address class="address-txt">FindingPerfectJobs Snc. - Milan, Italy</address>
+    </footer> 
+
+    <script src="scaricabile.js"></script>
+</body>
+</html>
